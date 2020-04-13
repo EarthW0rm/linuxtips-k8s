@@ -6,7 +6,6 @@ metadata:
   name: nginx
   namespace: default
 spec:
-  clusterIP: 10.100.82.72
   ports:
   - port: 80
     protocol: TCP
