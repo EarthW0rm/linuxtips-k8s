@@ -35,8 +35,8 @@ spec:
             memory: 512Mi
             cpu: "500m"
           requests:
-            memory: 512Mi
-            cpu: "500m"
+            memory: 256Mi
+            cpu: "250m"
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
